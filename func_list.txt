@@ -1,0 +1,6 @@
+Polynomial 1 0 2 X
+Polynomial 3 100.5 2 -3 4 X
+LinearSum LinearSum Sin X + Cos X EndSum + Tan X EndSum
+Quotient LinearSum Sinh Power 3 X + Cosh Power 2 X EndSum / Coth X EndQuotient
+LogN LinearSum Exp LinearSum Power 2 X + Sin X EndSum + Polynomial 0 2 X EndSum
+Product Polynomial 2 0 0 3 Cot Power 2 X * Polynomial 2 1 0 3 X EndProduct
